@@ -76,7 +76,7 @@ resource "kubernetes_service" "example" {
       test = "MyExampleApp"
     }
     port {
-      port        = 81
+      port        = 818
       target_port = 80
     }
 
